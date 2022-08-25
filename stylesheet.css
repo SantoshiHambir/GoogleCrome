@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;700&family=Inter:wght@500&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Edu VIC WA NT Beginner';
+}
+header{
+    width: 100%;
+}
+ul{
+    list-style: none;
+
+}
+#nav_bar{
+    float: right;
+}
+#nav_bar li{
+    display: inline-block;
+    padding: 7px;
+}
+#nav_bar #sign_in{
+    background: #1405e9;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li.nav-links a:hover{
+    text-decoration: underline;
+    
+}
+#sign_in:hover{
+    box-shadow: 1px 4px 5px rgb(15, 15, 15);
+}
+#sign_in{
+    color: #fff;
+}
+.google #google_logo {
+    text-align: center;
+    display: block;
+   margin: 0 auto;
+   clear: both;
+   padding-top: 5px;
+   /* padding-bottom: 2px; */
+}
+
+.form{
+    text-align: center;
+
+}
+#txtSearch{
+    width: 400px;
+    line-height: 30px;
+    padding: 5px 5px;
+    border-radius: 30px;
+}
+.form #txtSearch{
+    padding: 0 7px;
+    font-family: 'Edu VIC WA NT Beginner';
+}
+#txtSearch:hover{
+    border-color: #e70f0f;
+    padding-top: 0;
+}
+.Buttons {
+text-align: center;
+padding-top: 15px;
+margin-bottom: 110px;
+/* border-radius: 30px; */
+font-family: 'Edu VIC WA NT Beginner';
+}
+.Buttons #google_search{
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: 'Edu VIC WA NT Beginner';
+}
+.Buttons #im_feeling_lucky{
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: 'Edu VIC WA NT Beginner';
+}
+
+footer{
+    background: #f2f2f2;
+    border-top: solid 2px #efefef;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+footer ul li {
+    display: inline;
+    color: #0f0e0e;
+    font-size: 15px;
+    padding: 5px;
+}
+footer ul li img{
+    padding: 1px;
+    padding-left: 25px; 
+    /* margin-left: 25px; */
+    margin: 2px;
+
+}
+footer ul {
+    float: left;
+    padding: 1px;
+}
+footer ul a:hover{
+    text-decoration: underline;
+}
+.footer-right{
+    float: right;
+}
+
